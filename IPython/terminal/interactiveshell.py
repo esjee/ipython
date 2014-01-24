@@ -265,7 +265,7 @@ class TerminalInteractiveShell(InteractiveShell):
     banner2 = Unicode('', config=True,
         help="""The part of the banner to be printed after the profile"""
     )
-    confirm_exit = CBool(True, config=True,
+    confirm_exit = CBool(False, config=True,
         help="""
         Set to confirm when you try to exit IPython with an EOF (Control-D
         in Unix, Control-Z/Enter in Windows). By typing 'exit' or 'quit',
